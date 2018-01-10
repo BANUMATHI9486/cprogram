@@ -2,14 +2,18 @@
 int main()
 {
 int n;
-printf("enter the no");
+printf("enter the no n");
 scanf("%d",&n);
-if(n/4==0)
+if(n>0)
 {
-printf("leap year");
+  printf("%dthe number is positive",n);
+}
+  else if(n<0)
+{
+printf("%dthe number is negative",n);
 }
 else
 {
-printf("not leap year");
+printf("the number is zero");
 }
 }
