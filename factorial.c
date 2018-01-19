@@ -6,5 +6,5 @@ void main()
     {
         f=f*i;
     }
-        printf("%dthe factorial number is",f);
+        printf("%dthe factorial numberis",f);
 }
