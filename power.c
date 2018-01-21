@@ -1,12 +1,9 @@
 #include<stdio.h>
-void main()
+#include<math.h>
+int main()
 {
-int n,a,c;
-printf("enter the number n");
-scanf("%d",&n);
-for (i=0;i<=n,i++)
-{
-c=a^n;
-printf("%d the power of number",c);
-}
+int a,b;
+scanf("%d%d",&a,&b);
+printf("the power of no is=%f",pow(a,b));
+return 0;
 }
