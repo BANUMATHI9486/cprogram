@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-	int l,i;
+	int l,i,c;
           char a[20]="francy345";
           l=strlen(a);
           for(i=1;i<=l;i++)
@@ -12,7 +12,7 @@ int main()
 		c++;
 	}
 }          
-          if(c==1)
+          if(c==l)
           {
           	printf("%s is alphabet",a);
           }
